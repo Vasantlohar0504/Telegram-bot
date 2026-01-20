@@ -1,1 +1,1 @@
-BOT_TOKEN = "8538807842:AAEjgKJJv20vqNk1jTJAf2i-JpS0Od87AL8"
+BOT_TOKEN = "Enter the Bot Token"
