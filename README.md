@@ -41,9 +41,6 @@ Full PowerPoint fidelity requires LibreOffice or COM (not used here)
 
 ✔ Works on:
 Windows
-Linux
-macOS
-Cloud servers
 
 ✔ Does NOT require:
 Microsoft Office
