@@ -1,66 +1,92 @@
-📄 Telegram File Converter Bot
-A Python-based Telegram Bot that converts files between multiple formats such as PDF, Word, PPTX, Images, and also supports compression — all directly inside Telegram.
-This bot is built using python-telegram-bot, pure Python converters, and avoids Windows COM dependencies.
+# 📄 Telegram File Converter Bot
 
-🚀 Features
-📄 PDF Conversions
-PDF → Images
-PDF → Word
-PDF → Excel
-PDF Compression
+A powerful **Python-based Telegram Bot** that enables seamless file conversion across multiple formats — including PDFs, Word documents, PowerPoint presentations, and images — directly within Telegram.
 
-🖼 Image Conversions
-Images → PDF
-Image → Word (OCR-ready structure)
-Image Compression
+Built with a focus on **portability and simplicity**, this bot uses pure Python libraries and **does not rely on Windows COM or Microsoft Office**.
 
-📄 Office Conversions
-Word → PDF
-PPTX → PDF (Python-only, no COM, no PowerPoint required)
+---
 
-🛠 Tech Stack
-Python 3.10+
-python-telegram-bot (v20+)
-python-pptx
-python-docx
-Pillow (PIL)
-ReportLab
-PyMuPDF (for PDFs)
+## 🚀 Features
 
-📲 How to Use
-Open Telegram
-Send a file (PDF / DOCX / PPTX / Image)
-Choose conversion from inline buttons
-Get the converted file instantly 🎉
+### 📄 PDF Conversions
 
-⚠️ Limitations
-PPTX → PDF uses image-based rendering
-Animations, transitions, and complex charts may not render perfectly
-Full PowerPoint fidelity requires LibreOffice or COM (not used here)
-🔒 No Windows COM Required
+* Convert **PDF → Images**
+* Convert **PDF → Word (DOCX)**
+* Convert **PDF → Excel**
+* **Compress PDF** files
 
-✔ Works on:
-Windows
+### 🖼 Image Conversions
 
-✔ Does NOT require:
-Microsoft Office
-PowerPoint
-win32com
+* Convert **Images → PDF**
+* Convert **Image → Word (OCR-ready structure)**
+* **Compress Images**
 
-📌 Future Improvements
-LibreOffice-based perfect PPTX → PDF
-OCR for scanned PDFs
-ZIP bulk downloads
-Cloud deployment
-User history & analytics
+### 📊 Office Conversions
 
+* Convert **Word → PDF**
+* Convert **PPTX → PDF** *(pure Python, no PowerPoint required)*
 
-👨‍💻 Author
-Vasant Lohar
-Python | Automation | Telegram Bots
+---
 
-⭐ Support
-If you like this project:
-⭐ Star the repository
-🍴 Fork it
-🧑‍💻 Contribute improvements
+## 🛠 Tech Stack
+
+* **Python 3.10+**
+* `python-telegram-bot` (v20+)
+* `python-pptx`
+* `python-docx`
+* `Pillow (PIL)`
+* `ReportLab`
+* `PyMuPDF`
+
+---
+
+## 📲 How It Works
+
+1. Open Telegram
+2. Upload a file *(PDF / DOCX / PPTX / Image)*
+3. Select a conversion option via inline buttons
+4. Receive the converted file instantly 🎉
+
+---
+
+## 🔒 Platform Compatibility
+
+### ✔ Supported
+
+* Windows
+* Linux *(if dependencies are installed)*
+* Cloud environments *(deployment-ready)*
+
+### ❌ Not Required
+
+* Microsoft Office
+* PowerPoint
+* `win32com` / COM automation
+
+---
+
+## ⚠️ Limitations
+
+* **PPTX → PDF conversion is image-based**
+
+  * Animations and transitions are not preserved
+  * Complex charts may lose fidelity
+
+> ⚡ For perfect PPTX rendering, tools like LibreOffice or COM automation are required (not used in this project).
+
+---
+
+## 📌 Future Enhancements
+
+* 🔄 LibreOffice-based high-fidelity PPTX → PDF
+* 🔍 OCR support for scanned PDFs
+* 📦 Bulk file download (ZIP support)
+* ☁️ Cloud deployment (AWS / Render / Railway)
+* 📊 User analytics & conversion history
+
+---
+
+## 🧑‍💻 Author
+
+**Vasant Lohar**
+Python Developer 
